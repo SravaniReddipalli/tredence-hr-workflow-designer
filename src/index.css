@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base custom styles for React Flow without @apply to avoid v4 issues */
+.react-flow__node {
+  border-radius: 0.75rem;
+}
