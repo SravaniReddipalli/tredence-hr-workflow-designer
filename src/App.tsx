@@ -31,9 +31,7 @@ function App() {
     <div className="w-screen h-screen flex flex-col bg-gray-50 font-sans">
       <header className="h-16 border-b border-gray-200 bg-white flex items-center justify-between px-6 shadow-sm z-20">
         <div className="flex items-center gap-3">
-          <div className="bg-blue-600 text-white p-2 rounded-lg">
-            <span className="font-bold tracking-wider text-sm w-5 h-5 flex items-center justify-center leading-none">TR</span>
-          </div>
+          <img src="/logo.png" alt="Tredence Logo" className="h-9 w-auto object-contain" />
           <h1 className="text-xl font-bold text-gray-800 tracking-tight">HR Workflow Designer</h1>
         </div>
         <div className="flex items-center gap-3">
